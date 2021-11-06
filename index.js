@@ -1,4 +1,3 @@
-const { clear } = require("console");
 const fs = require("fs");
 const moment = require("moment");
 const start_time = moment();
