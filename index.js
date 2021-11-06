@@ -7,9 +7,9 @@ let result = [...ones];
 let resultString = "";
 
 // LOOP FUNCTION TO GENERATE COMBINATIONS
-const func = (data = []) => {
-  data.foreach((l1) => {
-    ones.foreach((l2) => {
+const func = (data) => {
+  data.forEach((l1) => {
+    ones.forEach((l2) => {
       result.push(l1 + l2);
     });
   });
